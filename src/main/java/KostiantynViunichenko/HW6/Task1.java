@@ -11,8 +11,25 @@ package KostiantynViunichenko.HW6;
 
 public class Task1 {
     public static void main(String[] args) {
-
+        int[] array = {0, 5, 7, 1, 2, 9};
+        Task1.printTicket(array);
 
     }
 
+    private static void printTicket(int[] array) {
+        int sum1 = 0;
+        int sum2 = 0;
+
+        for (int i = 0; i < 3; i++) {
+            sum1 = sum1 + array[i];
+        }
+        for (int i = 3; i < 6; i++) {
+            sum2 = sum2 + array[i];
+        }
+        if (sum1 == sum2) {
+            System.out.println("Билет счасливый: True");
+        } else {
+            System.out.println("Билет счасливый: False ");
+        }
+    }
 }
