@@ -3,10 +3,12 @@ package KostiantynViunichenko.HW6;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class test1 {
-    public static void main(String[] args) throws IOException {
+   /* public static void main(String[] args) throws IOException {
         Scanner input = new Scanner(System.in);
         System.out.println("Введите количество массива");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -47,7 +49,79 @@ public class test1 {
                 array[i] = s;
             }
         }*/
-        //сравнивает первый миним с первым максималным
-        System.out.println("Min " + min + " Max " + max +" "+ index_min+" "+index_max + " Количество " + count );
-    }
+    //сравнивает первый миним с первым максималным
+    //System.out.println("Min " + min + " Max " + max +" "+ index_min+" "+index_max + " Количество " + count );
+    //}
+
+   /* public static void main(String[] args) {
+            int[] arr = makeRandomArr(10, 10);
+            int evenSum = 0;
+            int oddSum = 0;
+            for (int i = 0; i < arr.length; i++) {
+                if (i % 2 == 0) {
+                    evenSum += arr[i];
+                } else {
+                    oddSum += arr[i];
+                }
+            }
+
+            System.out.println("array: " + Arrays.toString(arr));
+            System.out.format("even sum: %d\n", evenSum);
+            System.out.format("odd sum: %d\n", oddSum);
+        }
+
+        private static int[] makeRandomArr(int size, int bound) {
+            int[] arr = new int[size];
+            Random rnd = new Random();
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = rnd.nextInt(bound);
+            }
+            return arr;
+        }}*/
+//   public static void main(String[] args) {
+//
+//        int array[] = {1, 5, 7, 8, 5, 0};
+//        int sum1 = 0;
+//        int sum2 = 0;
+//
+//
+//       for (int i = 0; i < array.length; i++) {
+//                if (i % 2 == 0) {
+//                    sum2 += array[i];
+//                } else {
+//                    sum1 += array[i];
+//                }
+//               // sum2 = sum2 + array[i];
+//        }
+//       System.out.println("array: " + Arrays.toString(array));
+//       System.out.format("nechet sum: %d\n", sum2);
+//       System.out.format("chet sum: %d\n", sum1);
+//       System.out.println("Билет счасливый: " + (sum1==sum2));
+//        //System.out.println("sum1 "+ sum1 + " sum2 " +sum2);
+//      // if (sum1 == sum2)
+//       //{
+
+//    }
 }
+//      //  for(int i = 0;i<array.length;i++){
+           // if(array[i]%2==0)
+            //    System.out.print(array[i] + " ");
+      //  }
+        //sum1 = sum1 + array[i];
+                //System.out.println("chet " + sum1);
+          //  }
+           // sum1 = sum1 + array[i];
+      //  }
+       /* for (int i = 0; i < 6; i++) {
+       if ()
+
+            sum2 = sum2 + array[i];
+        }
+        System.out.println("sum1 "+ sum1 + " sum2 " +sum2);
+        if (sum1 == sum2) {
+            System.out.println(" Lucky ");
+        } else {
+            System.out.println("Not lucky");
+        }
+        System.out.println("Билет счасливый: " + (sum1==sum2) );
+    }*/
