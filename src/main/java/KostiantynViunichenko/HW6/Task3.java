@@ -1,5 +1,10 @@
 package KostiantynViunichenko.HW6;
 
+//  Найти минимальный элемент в массиве целых чисел.
+//        Длину массива и числа ввести с консоли.
+//        В результате вывести в консоль:
+//        “Минимальное число: 5
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
