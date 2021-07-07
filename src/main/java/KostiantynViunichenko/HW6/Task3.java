@@ -12,7 +12,6 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) throws IOException {
-        Scanner input = new Scanner(System.in);
         System.out.println("Введите количество чисел массива: ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int k = Integer.parseInt(reader.readLine());
