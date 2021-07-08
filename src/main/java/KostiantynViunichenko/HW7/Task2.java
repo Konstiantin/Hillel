@@ -21,9 +21,9 @@ public class Task2 {
         System.out.println("Введите второе слово: ");
         b = scanner.nextLine();
 
-         a = a.substring(0,(a.length()/2));
-         b = b.substring((b.length()/2));
-         String result = a+b;
+         String s1 = a.substring(0,(a.length()/2));
+         String s2 = b.substring((b.length()/2));
+         String result = s1+s2;
 
         System.out.println("String a = "+ a);
         System.out.println("String b = "+ b);
