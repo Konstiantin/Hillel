@@ -14,19 +14,19 @@ import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
-        String s1, s2;
+        String a, b;
         System.out.println("Введите первое слово: ");
-        s1 = scanner.nextLine();
+        a = scanner.nextLine();
         System.out.println();
         System.out.println("Введите второе слово: ");
-        s2 = scanner.nextLine();
+        b = scanner.nextLine();
 
-         s1 = s1.substring(0, (s1.length()/2));
-         s2 = s2.substring((s2.length()/2));
-         String result = s1+s2;
+         a = a.substring(0,(a.length()/2));
+         b = b.substring((b.length()/2));
+         String result = a+b;
 
-        System.out.println("String a = "+ s1);
-        System.out.println("String b = "+ s2);
+        System.out.println("String a = "+ a);
+        System.out.println("String b = "+ b);
         System.out.println("Result: "+result);
     }
 }
