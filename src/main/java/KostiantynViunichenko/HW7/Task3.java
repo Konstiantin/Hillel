@@ -42,13 +42,13 @@ public class Task3 {
         int y = Integer.parseInt(strY);
         System.out.println(s3+" = "+(x+y));
 
-        int j = s2.indexOf("minus");
-        String strK = s2.substring(0, j - 1);
-        String strH = s2.substring(j + 6);
+        int j = s4.indexOf("minus");
+        String strK = s4.substring(0, j - 1);
+        String strH = s4.substring(j + 6);
 
         int k = Integer.parseInt(strK);
         int h = Integer.parseInt(strH);
-        System.out.println(s2+" = "+(k-h));
+        System.out.println(s4+" = "+(k-h));
     }
 }
 
