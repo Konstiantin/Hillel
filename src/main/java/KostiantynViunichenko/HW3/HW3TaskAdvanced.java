@@ -28,19 +28,3 @@ public class HW3TaskAdvanced {
 
     }
 
-/*
-    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-    String A = reader.readLine();
-    String B = reader.readLine();
-    String C = reader.readLine();
-
-    int intA = Integer.parseInt(A);
-    int intB = Integer.parseInt(B);
-    int intC = Integer.parseInt(C);
-
-        if (((intA + intB) > intC) && ((intC + intB) > intA) && ((intA + intC) > intB)) {
-                System.out.println("Треугольник существует.");
-                } else {
-                System.out.println("Треугольник не существует.");
-                }
-*/
