@@ -10,7 +10,7 @@ public class Task2 {
      * Every smiling face must have a smiling mouth that should be marked with either ) or D
      * No additional characters are allowed except for those mentioned.
      *
-     * Valid smiley face examples: :) :D ;-D :~)
+     * Valid smiley face examples: :) :D ;-D :~) ;)
      * Invalid smiley faces: ;( :> :} :]
      *
      * Example
@@ -24,7 +24,8 @@ public class Task2 {
      */
     public static int countSmileys(String[] arr) {
 
-        String validSmiles = ":) :D :-) :~D";
+        String validSmiles = ":-) :-D :) :D :~) :~D ;-) ;-D ;) ;D ;~) ;~D";
+
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if (validSmiles.contains(arr[i])) {
@@ -35,7 +36,7 @@ public class Task2 {
     }
 
     public static void main(String[] args) {
-        System.out.println(countSmileys(new String[]{":)", ":-)", ":*", ":-D"}));
+        System.out.println(countSmileys(new String[]{";]", ":[", ";*", ":$", ";-D"}));
     }
 }
 
