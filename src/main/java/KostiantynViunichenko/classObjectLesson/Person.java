@@ -69,13 +69,17 @@ public class Person {
         this.name = name;
     }
 
-    public void setAge(int age) { this.age = age; }
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public boolean setMarried() {
         return married;
     }
 
-    public String getName() { return name; }
+    public String getName() {
+        return name;
+    }
 
     public int getAge() {
         return age;
@@ -85,14 +89,18 @@ public class Person {
         return married;
     }
 
-    public String toString() { return String.format("My name is %s. I’m %d years old. Am I married? %b", name, age, married); }
+    public String toString() {
+        return String.format("My name is %s. I’m %d years old. Am I married? %b", name, age, married);
+    }
 
     public int anniversaryCount(Person person) {
         return person.getAge() / 10;
     }
+
     public char firstCharOfName() {
-        return  name.charAt(0);
+        return name.charAt(0);
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -100,6 +108,7 @@ public class Person {
         Person person = (Person) o;
         return age == person.age && married == person.married && name.equals(person.name);
     }
+
     @Override
     public int hashCode() {
         return Objects.hash(name, age, married);
