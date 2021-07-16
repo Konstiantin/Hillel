@@ -65,21 +65,13 @@ public class Person {
         this.married = married;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public void setName (String name) { this.name = name; }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+    public void setAge (int age) { this.age = age; }
 
-    public boolean setMarried() {
-        return married;
-    }
+    public boolean setMarried(boolean married) { return married; }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() {return name; }
 
     public int getAge() {
         return age;
@@ -89,12 +81,13 @@ public class Person {
         return married;
     }
 
+    @Override
     public String toString() {
         return String.format("My name is %s. I’m %d years old. Am I married? %b", name, age, married);
     }
 
-    public int anniversaryCount(Person person) {
-        return person.getAge() / 10;
+    public int anniversaryCount () {
+        return getAge() / 10;
     }
 
     public char firstCharOfName() {
@@ -106,7 +99,8 @@ public class Person {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
-        return age == person.age && married == person.married && name.equals(person.name);
+        return age == person.age && married == person.married &&
+                name.equals(person.name);
     }
 
     @Override
@@ -132,7 +126,7 @@ public class Person {
             int age = item.getAge();
             System.out.println(item.getName() + " " + age + " " + item.getMarried());
         }
-        System.out.printf("Сколько юбилеев у меня уже было?\nЮбилей у Вас был %d раз!\n", person3.anniversaryCount(person3));
+        System.out.printf("Сколько юбилеев у меня уже было?\nЮбилей у Вас был %d раз!\n", person3.anniversaryCount());
 
         System.out.printf("C какой буквы начинается мое имя?\nВаше имя начинается с буквы '%c'", person3.firstCharOfName());
     }
