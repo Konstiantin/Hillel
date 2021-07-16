@@ -88,6 +88,7 @@ public class Person {
 
     public int anniversaryCount () {
         return getAge() / 10;
+
     }
 
     public char firstCharOfName() {
