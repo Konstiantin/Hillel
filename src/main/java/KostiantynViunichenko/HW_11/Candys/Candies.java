@@ -3,8 +3,8 @@ package Candys;
 public class Candies {
 
     private int Weight;
-
     static int arrayLength = 0;
+
 
     public Candies (int weight) {
         this.Weight = weight;
