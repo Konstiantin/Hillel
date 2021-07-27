@@ -2,6 +2,7 @@ package Candys;
 
 public class Candies {
 
+
     private int Weight;
     static int arrayLength = 0;
 
