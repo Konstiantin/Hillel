@@ -6,7 +6,6 @@ public class Drops extends Candies {
         return "Drops = ";
     }
 
-
     public Drops(int weight) {
         super(weight);
     }

@@ -7,7 +7,6 @@ public class Caramel extends Candies {
         return "Caramel = ";
     }
 
-
     public Caramel(int weight) {
         super(weight);
     }

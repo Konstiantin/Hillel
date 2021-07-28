@@ -22,7 +22,6 @@ public class MainTotal {
         array[4] = caramel1;
         array[5] = caramel2;
 
-
         for (Candies item : array) {
             System.out.print(item+" ");
             System.out.println(item.getWeight());

@@ -5,7 +5,6 @@ public class Chocolate extends Candies {
         super(weight);
     }
 
-
     @Override
     public String toString() {
         return "Chocolate = ";

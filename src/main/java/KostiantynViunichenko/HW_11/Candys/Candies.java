@@ -12,7 +12,6 @@ public class Candies {
         arrayLength++;
     }
 
-
     public int getWeight() {
         return Weight;
     }
