@@ -1,8 +1,6 @@
-package Swets;
+package Candys;
 
 public class Chocolate extends Candies {
-
-  
     public Chocolate(int weight) {
         super(weight);
     }
@@ -10,10 +8,5 @@ public class Chocolate extends Candies {
     @Override
     public String toString() {
         return "Chocolate = ";
-
-
-    public Chocolate (int weight) {
-        super(weight);
-
     }
 }

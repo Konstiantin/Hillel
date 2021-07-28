@@ -1,6 +1,7 @@
-package Swets;
+package Candys;
 
 public class MainTotal {
+
 
     public static void main(String[] args) {
 
@@ -25,15 +26,8 @@ public class MainTotal {
             System.out.print(item+" ");
             System.out.println(item.getWeight());
         }
-
-    public static void main(String[] args) {
-
-        Candies candies = new Candies(12);
-        Chocolate chocolate = new Chocolate(2);
-        Drops drops = new Drops (10);
-        Caramel caramel = new Caramel (50);
-
-        System.out.println (candies.getWeight()+ chocolate.getWeight()+ drops.getWeight()+ caramel.getWeight());
-
     }
 }
+
+
+

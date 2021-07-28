@@ -1,18 +1,15 @@
-package Swets;
+package Candys;
 
 public class Candies {
 
-    private int Weight;
 
+    private int Weight;
     static int arrayLength = 0;
+
 
     public Candies (int weight) {
         this.Weight = weight;
         arrayLength++;
-    }
-
-    public Candies(int weight) {
-        Weight = weight;
     }
 
     public int getWeight() {
@@ -31,5 +28,9 @@ public class Candies {
         Candies.arrayLength = arrayLength;
     }
 }
-}
+
+
+
+
+
 
