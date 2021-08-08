@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.company.vehicles;
+=======
+package KostiantynViunichenko.HW_10.com.company.vehicles;
+>>>>>>> 3719f12 (Hillel_HW)
 
 import com.company.details.Engine;
 import com.company.professions.Driver;

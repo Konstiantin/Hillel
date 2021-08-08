@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 package Lecture_8_control_task.src.main.java;
 
+=======
+>>>>>>> 3719f12 (Hillel_HW)
 public class Task1 {
     /**
      * You might know some pretty large perfect squares. But what about the NEXT one?
@@ -26,7 +29,11 @@ public class Task1 {
         } else return -1;
     }
 
+<<<<<<< HEAD
     public static void main (String[] args) {
+=======
+    public static void main(String[] args) {
+>>>>>>> 3719f12 (Hillel_HW)
         System.out.println(findNextSquare(121));
         System.out.println(findNextSquare(625));
         System.out.println(findNextSquare(114));

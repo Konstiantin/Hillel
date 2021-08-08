@@ -1,6 +1,16 @@
+
+<<<<<<< HEAD
 package Task1;
 
 public class Swam extends Birds implements CanSwim,CanFly,CanEat{
+=======
+package KostiantynViunichenko.HW12.Task1;
+
+import Task1.CanEat;
+import Task1.CanFly;
+
+public class Swam extends Birds implements CanSwim, CanFly, CanEat {
+>>>>>>> 3719f12 (Hillel_HW)
 
     @Override
     public void canEat() { System.out.println("I can eat grass!! !"); }

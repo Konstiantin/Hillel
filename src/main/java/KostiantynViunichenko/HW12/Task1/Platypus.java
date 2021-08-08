@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 package Task1;
 
 import Task2.CanMove;
+=======
+package KostiantynViunichenko.HW12.Task1;
+
+import Task1.CanEat;
+import Task1.Mammal;
+>>>>>>> 3719f12 (Hillel_HW)
 
 public class Platypus extends Mammal implements CanEat,CanSwim {
     public Platypus() { super(); }

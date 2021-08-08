@@ -1,13 +1,23 @@
+<<<<<<< HEAD
 package com.company;
 
+=======
+package KostiantynViunichenko.HW_10.com.company;
+
+import KostiantynViunichenko.HW_10.com.company.vehicles.Lorry;
+import KostiantynViunichenko.HW_10.com.company.vehicles.SportCar;
+>>>>>>> 3719f12 (Hillel_HW)
 import com.company.details.Engine;
 import com.company.professions.Driver;
 import com.company.professions.Person;
 
+<<<<<<< HEAD
 import com.company.vehicles.Lorry;
 import com.company.vehicles.SportCar;
 
 
+=======
+>>>>>>> 3719f12 (Hillel_HW)
 
 public class Main {
 

@@ -1,5 +1,10 @@
 package Task1;
 
+<<<<<<< HEAD
+=======
+import KostiantynViunichenko.HW12.Task1.Birds;
+
+>>>>>>> 3719f12 (Hillel_HW)
 public class Martin extends Birds implements CanFly,CanEat  {
 
     @Override

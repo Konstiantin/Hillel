@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 package Task2;
 
 import KostiantynViunichenko.HW12.Task2.Class;
+=======
+package KostiantynViunichenko.HW12.Task2;
+>>>>>>> 3719f12 (Hillel_HW)
 
 public class Main {
     public static void main(String[] args) {

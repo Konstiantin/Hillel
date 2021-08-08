@@ -11,9 +11,6 @@ public class Candies {
         arrayLength++;
     }
 
-    public Candies(int weight) {
-        Weight = weight;
-    }
 
     public int getWeight() {
         return Weight;
@@ -31,5 +28,9 @@ public class Candies {
         Candies.arrayLength = arrayLength;
     }
 }
-}
+
+
+
+
+
 

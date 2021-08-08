@@ -2,6 +2,10 @@ package Swets;
 
 public class MainTotal {
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3719f12 (Hillel_HW)
     public static void main(String[] args) {
 
         Candies chocolate1 = new Chocolate(120);
@@ -25,6 +29,7 @@ public class MainTotal {
             System.out.print(item+" ");
             System.out.println(item.getWeight());
         }
+<<<<<<< HEAD
 
     public static void main(String[] args) {
 
@@ -37,3 +42,10 @@ public class MainTotal {
 
     }
 }
+=======
+    }
+}
+
+
+
+>>>>>>> 3719f12 (Hillel_HW)
