@@ -1,8 +1,8 @@
-package Task2;
+package KostiantynViunichenko.HW12.Task2;
 
-public class Class implements CanFly {
+public class Class implements Task2.CanFly {
     @Override
-    public Double speed(CanFly fly) { return fly.speed() / 7;}
+    public Double speed(Task2.CanFly fly) { return fly.speed() / 7;}
     @Override
     public Double speed (){return 8.6;}
 }

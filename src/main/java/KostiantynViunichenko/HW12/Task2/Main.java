@@ -1,5 +1,7 @@
 package Task2;
 
+import KostiantynViunichenko.HW12.Task2.Class;
+
 public class Main {
     public static void main(String[] args) {
         Class first = new Class();
