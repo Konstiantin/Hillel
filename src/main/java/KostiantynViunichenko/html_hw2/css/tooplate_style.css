@@ -10,7 +10,7 @@ body {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 14px;
 	line-height: 1.5em;
-	background-color: #EE82EE;
+	background-color: #b0dfea;
 	background-image: url(../images/tooplate_body.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -86,7 +86,6 @@ cite span {
 }
 
 em {
-	color: #29b5d3;
 }
 
 .tooplate_list {
